@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* consolidated styling features for all .benefits tags.
+consolidated h3 and img elements for all .benefits tags.
+tweaked .benefits styling to better mirror demo image. */
+
+.benefits {
+    margin-right: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px;
+}
+
+/* consolidated .content section code into one block of code */
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* made .content p and h2 font bigger to match demo image as best as possible */ 
+.content p {
+    font-size: 20px;
+}
+
+.content h2 {
+    font-size: 45px;
+}
+
+/* consolidated .content img code into one block of code */
+.content img {
+    max-height: 200px;
+}
+
+/* consolidated h2 tags as multiple lines were unnessary */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* removed footer and footer css as per demo image as it isn't shown. Hope that's correct! */
